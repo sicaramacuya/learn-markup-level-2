@@ -1,6 +1,6 @@
 # WEB 1.0 Lesson 2 challenges 
 
-## Challenge 2 - Images
+## Challenge 1 - Images
 
 Open `challenge-01.html`
 
