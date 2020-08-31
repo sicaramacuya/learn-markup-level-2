@@ -12,7 +12,7 @@ The img tag uses the src attribute to specify the image. You need to include the
 
 `/images/file-name.png`
 
-Images also need a width and height. These attributes set dimension of the iamge when it is displayed. Setting one or other to 'auto' tells the maintain the ratio when resizing. 
+Images also need a width and height. These attributes set dimension of the image when it is displayed. Setting one or other to 'auto' tells the maintain the ratio when resizing. 
 
 Images should also have an al tag that names the image. If the image can't be displayed the alt text is displayed. 
 
