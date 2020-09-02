@@ -10,23 +10,33 @@
         <label>
           Search
           <!-- Create an input with type "text" and id "giphy-search" -->
-          
+          <input type="text" id="giphy-search">
         </label>
       </p>
 
       <p>
         <!-- Make three input tags -->
         <!-- These will be radio buttons add a type attribute with value "radio" -->
-        <!-- To work as group all radio buttons hsould have the same name -->
+        <!-- To work as group all radio buttons should have the same name -->
         <!-- Use the names and values below for each input -->
         <!-- name="size" value="fixed_height" -->
         <!-- name="size" value="fixed_height_small" -->
         <!-- name="size" value="fixed_height_small_still" -->
         <!-- Wrap each radio button in a label and include the label text -->
         <!-- Here is the first input you make the others -->
-        <label>
+        <label >
           <input type="radio" name="size" value="fixed_height">
           Fixed Height
+        </label><br>
+
+        <label >
+          <input type="radio" name="size" value="fixed_height_small">
+          Fixed Height Small
+        </label><br>
+
+        <label >
+          <input type="radio" name="size" value="fixed_height_small_still">
+          Fixed Height Small Still
         </label>
       </p>
 
@@ -34,16 +44,28 @@
         <!-- Create an input inside a label. -->
         <!-- This will be a checkbox. Use type = cheackbox -->
         <!-- Checkbox id='cats-only'-->
+        <label>
+          <input type="checkbox" id="cats-only">
+          Cats Only!
+        </label>
       </p>
 
       <p>
         <!-- Make an other check box -->
         <!-- Use id='show-title'-->
+        <label>
+          <input type="checkbox" id="show-title">
+          Show Title
+        </label>
       </p>
 
       <p>
         <!-- Make a range slider. This is inptu with type = range -->
         <!-- range id="image-count"-->
+        <label>
+          <input type="range" id="image-count" name="how-many" value="1" min="1" max="10">
+            How many?
+        </label>
       </p>
       
       <p>
